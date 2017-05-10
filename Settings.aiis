@@ -179,8 +179,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "c7ae6f08-6003-4c68-bb2c-de7a39870f61",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/shtilianov/testRemote.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/shtilianov/testRemote.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
